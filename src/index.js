@@ -37,7 +37,7 @@ function validate(options = {}) {
     const error = {};
     for (const key in schema) {
       const rules = schema[key];
-      if (values[key] !== void 0) {
+      if (values[key] !== void 0 && values[key]) {
         check(rules, key, values, error);
       } else if (rules.toString().indexOf('ignore') === -1) {
         //当验证规则里面不包含ignore时，取为空提示

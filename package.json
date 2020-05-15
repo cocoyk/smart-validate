@@ -1,6 +1,6 @@
 {
-  "name": "smart-validate",
-  "version": "0.0.3",
+  "name": "@yqsk/smart-validate",
+  "version": "0.0.4",
   "description": "Simple validate with form",
   "main": "lib/index.js",
   "files": [
