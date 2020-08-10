@@ -1,6 +1,6 @@
 {
-  "name": "smart-validate",
-  "version": "1.0.1",
+  "name": "yqsk-smart-validate",
+  "version": "1.0.2",
   "description": "Simple validate with form",
   "main": "lib/index.js",
   "files": [
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lulei90/smart-validate"
+    "url": "git+https://github.com/cocoyk/smart-validate.git"
   },
   "keywords": [
     "validate",
@@ -34,12 +34,12 @@
     "validation",
     "validator"
   ],
-  "author": "luyunjun",
+  "author": "cocoyk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lulei90/smart-validate/issues"
+    "url": "https://github.com/cocoyk/smart-validate/issues"
   },
-  "homepage": "https://github.com/lulei90/smart-validate#readme",
+  "homepage": "https://github.com/cocoyk/smart-validate#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
