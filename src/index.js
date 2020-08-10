@@ -99,7 +99,7 @@ class Validate {
     Object.keys(scheme).forEach(key => {
       const { rule, nullTip = '数据不能为空', required = true } = scheme[key];
       //当值非空时去验证值是否满足规则，否则如果required为true则进行非空提示
-      if (values[key] !== void 0) {
+      if (values[key] && values[key] !== void 0) {
         rule !== void 0 && this.check(rule, key, values);
       } else {
         required && (this.error[key] = nullTip);
